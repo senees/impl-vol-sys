@@ -1,0 +1,16 @@
+[package]
+name = "impl-vol-sys"
+version = "0.0.5"
+authors = ["seenees <code@seenees.de>"]
+description = "Implied volatility bindings"
+documentation = "https://docs.rs/impl-vol-sys"
+repository = "https://github.com/seenees/impl-vol-sys.git"
+license = "MIT"
+edition = "2021"
+
+[dependencies]
+libc = "0.2.122"
+cxx = "1.0.66"
+
+[build-dependencies]
+cxx-build = "1.0.66"
